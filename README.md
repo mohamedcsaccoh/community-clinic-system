@@ -23,9 +23,13 @@ To be recognized as a Digital Public Goods standard, open solutions must adhere 
    - Standardized Codebase & Data Structures: Written in standard Python, the application relies on universally recognized Object-Oriented Programming (OOP) paradigms (Classes, Inheritance/Encapsulation principles, Methods) and native data structures (Lists). This ensures maximum portability, allowing the codebase to run across multiple operating systems without proprietary dependencies.
 
 5. Privacy and Data Protection
-   - Local Data Management & Transparency: The system operates transparently with runtime data structures, providing a foundational baseline for developers to implement encrypted databases or privacy-compliant storage layers in future iterations.
+   - Local Data Management & Transparency: The system operates transparently with runtime data str
 
----
+## How to Run the Application
+1. Run the clinic_system.py file using Python 3.x.
+2. Follow the interactive prompts to enter clinic and patient details.
+"""
+
 
 ## Features
 - Dynamic User Input: Interactive while loops that allow health workers to register multiple patients on-demand.
@@ -33,11 +37,3 @@ To be recognized as a Digital Public Goods standard, open solutions must adhere 
 - Python Data Structures: Leverages Python lists and helper functions to persist and retrieve records seamlessly.
 
 ---
-
-## How to Run the Application
-1. Run the clinic_system.py file using Python 3.x.
-2. Follow the interactive prompts to enter clinic and patient details.
-"""
-
-if __name__ == "__main__":
-    print("This is the README documentation file for the Community Clinic Patient Record System.")
